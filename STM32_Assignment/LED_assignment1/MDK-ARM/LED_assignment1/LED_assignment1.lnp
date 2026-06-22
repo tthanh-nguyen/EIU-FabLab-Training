@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"led_assignment1\startup_stm32f103xb.o"
+"led_assignment1\main.o"
+"led_assignment1\stm32f1xx_it.o"
+"led_assignment1\stm32f1xx_hal_msp.o"
+"led_assignment1\stm32f1xx_hal_gpio_ex.o"
+"led_assignment1\stm32f1xx_hal.o"
+"led_assignment1\stm32f1xx_hal_rcc.o"
+"led_assignment1\stm32f1xx_hal_rcc_ex.o"
+"led_assignment1\stm32f1xx_hal_gpio.o"
+"led_assignment1\stm32f1xx_hal_dma.o"
+"led_assignment1\stm32f1xx_hal_cortex.o"
+"led_assignment1\stm32f1xx_hal_pwr.o"
+"led_assignment1\stm32f1xx_hal_flash.o"
+"led_assignment1\stm32f1xx_hal_flash_ex.o"
+"led_assignment1\stm32f1xx_hal_exti.o"
+"led_assignment1\system_stm32f1xx.o"
+"led_assignment1\led_rgb.o"
+"led_assignment1\multiple_button.o"
+--strict --scatter "LED_assignment1\LED_assignment1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_assignment1.map" -o LED_assignment1\LED_assignment1.axf
