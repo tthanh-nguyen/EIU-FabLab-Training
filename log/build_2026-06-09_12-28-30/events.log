@@ -1,0 +1,417 @@
+[0.000000] (-) TimerEvent: {}
+[0.001033] (f1tenth_msgs) JobQueued: {'identifier': 'f1tenth_msgs', 'dependencies': OrderedDict()}
+[0.001601] (ros2_basic) JobQueued: {'identifier': 'ros2_basic', 'dependencies': OrderedDict()}
+[0.001792] (f1tenth_msgs) JobStarted: {'identifier': 'f1tenth_msgs'}
+[0.029612] (ros2_basic) JobStarted: {'identifier': 'ros2_basic'}
+[0.049809] (f1tenth_msgs) JobProgress: {'identifier': 'f1tenth_msgs', 'progress': 'cmake'}
+[0.050087] (f1tenth_msgs) Command: {'cmd': ['/usr/bin/cmake', '/f1tenth_ws/src/f1tenth_msgs', '-DCMAKE_INSTALL_PREFIX=/f1tenth_ws/install/f1tenth_msgs'], 'cwd': '/f1tenth_ws/build/f1tenth_msgs', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/f1tenth_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.057191] (ros2_basic) JobProgress: {'identifier': 'ros2_basic', 'progress': 'cmake'}
+[0.057671] (ros2_basic) Command: {'cmd': ['/usr/bin/cmake', '/f1tenth_ws/src/ros2_basic', '-DCMAKE_INSTALL_PREFIX=/f1tenth_ws/install/ros2_basic'], 'cwd': '/f1tenth_ws/build/ros2_basic', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/ros2_basic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.099501] (-) TimerEvent: {}
+[0.135355] (f1tenth_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.143931] (ros2_basic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199538] (-) TimerEvent: {}
+[0.208716] (f1tenth_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.213465] (ros2_basic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.214533] (f1tenth_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.218553] (ros2_basic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299683] (-) TimerEvent: {}
+[0.314051] (f1tenth_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.315251] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.318777] (ros2_basic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.320613] (ros2_basic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399727] (-) TimerEvent: {}
+[0.427692] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.431800] (ros2_basic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.453287] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.454211] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.458189] (ros2_basic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.458728] (ros2_basic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.459140] (f1tenth_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.462667] (ros2_basic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499816] (-) TimerEvent: {}
+[0.572668] (ros2_basic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.572898] (f1tenth_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.573865] (ros2_basic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.574143] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599954] (-) TimerEvent: {}
+[0.685856] (ros2_basic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.689267] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.698276] (ros2_basic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.698882] (ros2_basic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700056] (-) TimerEvent: {}
+[0.702021] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.702333] (ros2_basic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.702827] (f1tenth_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.706616] (f1tenth_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.727442] (ros2_basic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.727856] (ros2_basic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.731005] (f1tenth_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.731197] (f1tenth_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800167] (-) TimerEvent: {}
+[0.901006] (-) TimerEvent: {}
+[0.933651] (ros2_basic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.955929] (f1tenth_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.997276] (f1tenth_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001140] (-) TimerEvent: {}
+[1.004086] (ros2_basic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.006188] (f1tenth_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.012171] (ros2_basic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.101263] (-) TimerEvent: {}
+[1.117266] (f1tenth_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.126752] (ros2_basic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.153055] (f1tenth_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.157218] (ros2_basic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.201408] (-) TimerEvent: {}
+[1.249314] (ros2_basic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.254916] (f1tenth_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301542] (-) TimerEvent: {}
+[1.328169] (ros2_basic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.330531] (ros2_basic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.331972] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.374226] (f1tenth_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.401691] (-) TimerEvent: {}
+[1.415606] (f1tenth_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.439311] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.439835] (ros2_basic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501851] (-) TimerEvent: {}
+[1.551319] (ros2_basic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.551519] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.601995] (-) TimerEvent: {}
+[1.638426] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.638800] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.659230] (f1tenth_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.702103] (-) TimerEvent: {}
+[1.736742] (ros2_basic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.737973] (ros2_basic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.802195] (-) TimerEvent: {}
+[1.902511] (-) TimerEvent: {}
+[1.965095] (ros2_basic) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.966273] (f1tenth_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.967399] (ros2_basic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.002609] (-) TimerEvent: {}
+[2.069162] (ros2_basic) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.069803] (ros2_basic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.070359] (ros2_basic) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.072070] (ros2_basic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.075351] (ros2_basic) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.078016] (ros2_basic) StdoutLine: {'line': b'-- Generating done\n'}
+[2.080280] (ros2_basic) StdoutLine: {'line': b'-- Build files have been written to: /f1tenth_ws/build/ros2_basic\n'}
+[2.091542] (ros2_basic) CommandEnded: {'returncode': 0}
+[2.095253] (ros2_basic) JobProgress: {'identifier': 'ros2_basic', 'progress': 'build'}
+[2.095322] (ros2_basic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/f1tenth_ws/build/ros2_basic', '--', '-j8', '-l8'], 'cwd': '/f1tenth_ws/build/ros2_basic', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/ros2_basic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[2.102708] (-) TimerEvent: {}
+[2.121453] (f1tenth_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.150799] (f1tenth_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.154508] (f1tenth_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.156574] (ros2_basic) CommandEnded: {'returncode': 0}
+[2.182318] (f1tenth_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.182991] (f1tenth_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.183197] (f1tenth_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.183307] (f1tenth_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.191972] (ros2_basic) JobProgress: {'identifier': 'ros2_basic', 'progress': 'install'}
+[2.202880] (-) TimerEvent: {}
+[2.205824] (f1tenth_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.207444] (ros2_basic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/f1tenth_ws/build/ros2_basic'], 'cwd': '/f1tenth_ws/build/ros2_basic', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/ros2_basic'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[2.222868] (ros2_basic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.223119] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/simple_node.py\n'}
+[2.223222] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/publisher_node.py\n'}
+[2.223321] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/subscriber_node.py\n'}
+[2.223434] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/drive.py\n'}
+[2.223498] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/odom.py\n'}
+[2.223584] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/control_meter.py\n'}
+[2.223685] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/scan_node.py\n'}
+[2.223878] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/detectObstacle.py\n'}
+[2.223992] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/detectObstacle1.py\n'}
+[2.224095] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/simple_server.py\n'}
+[2.224194] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/simple_clients.py\n'}
+[2.224291] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/1_clients_detectObstacle.py\n'}
+[2.224386] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/lib/ros2_basic/1_server_detectObstacle.py\n'}
+[2.224643] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ament_index/resource_index/package_run_dependencies/ros2_basic\n'}
+[2.224857] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ament_index/resource_index/parent_prefix_path/ros2_basic\n'}
+[2.225056] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/environment/ament_prefix_path.sh\n'}
+[2.225215] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/environment/ament_prefix_path.dsv\n'}
+[2.225373] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/environment/path.sh\n'}
+[2.225533] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/environment/path.dsv\n'}
+[2.225705] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/local_setup.bash\n'}
+[2.225837] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/local_setup.sh\n'}
+[2.225977] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/local_setup.zsh\n'}
+[2.226104] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/local_setup.dsv\n'}
+[2.226269] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/package.dsv\n'}
+[2.226486] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ament_index/resource_index/packages/ros2_basic\n'}
+[2.226743] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/cmake/ros2_basicConfig.cmake\n'}
+[2.226863] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/cmake/ros2_basicConfig-version.cmake\n'}
+[2.226962] (ros2_basic) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/ros2_basic/share/ros2_basic/package.xml\n'}
+[2.229278] (ros2_basic) CommandEnded: {'returncode': 0}
+[2.300452] (ros2_basic) JobEnded: {'identifier': 'ros2_basic', 'rc': 0}
+[2.302944] (-) TimerEvent: {}
+[2.322543] (f1tenth_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.353402] (f1tenth_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.354897] (f1tenth_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.360539] (f1tenth_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.403088] (-) TimerEvent: {}
+[2.427144] (f1tenth_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.430863] (f1tenth_msgs) StdoutLine: {'line': b'-- Build files have been written to: /f1tenth_ws/build/f1tenth_msgs\n'}
+[2.444420] (f1tenth_msgs) CommandEnded: {'returncode': 0}
+[2.445216] (f1tenth_msgs) JobProgress: {'identifier': 'f1tenth_msgs', 'progress': 'build'}
+[2.445553] (f1tenth_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/f1tenth_ws/build/f1tenth_msgs', '--', '-j8', '-l8'], 'cwd': '/f1tenth_ws/build/f1tenth_msgs', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/f1tenth_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[2.503284] (-) TimerEvent: {}
+[2.504988] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__cpp\x1b[0m\n'}
+[2.505743] (f1tenth_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.519876] (f1tenth_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.603424] (-) TimerEvent: {}
+[2.703719] (-) TimerEvent: {}
+[2.804002] (-) TimerEvent: {}
+[2.904318] (-) TimerEvent: {}
+[2.952239] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.971855] (f1tenth_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_generator_c.dir/rosidl_generator_c/f1tenth_msgs/srv/detail/aeb__functions.c.o\x1b[0m\n'}
+[2.972153] (f1tenth_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_generator_c.dir/rosidl_generator_c/f1tenth_msgs/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[3.004487] (-) TimerEvent: {}
+[3.025001] (f1tenth_msgs) StdoutLine: {'line': b'[ 10%] Built target f1tenth_msgs__cpp\n'}
+[3.049081] (f1tenth_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.049421] (f1tenth_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.049778] (f1tenth_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.066156] (f1tenth_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libf1tenth_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.104613] (-) TimerEvent: {}
+[3.127845] (f1tenth_msgs) StdoutLine: {'line': b'[ 20%] Built target f1tenth_msgs__rosidl_generator_c\n'}
+[3.148061] (f1tenth_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.149535] (f1tenth_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.204867] (-) TimerEvent: {}
+[3.305991] (-) TimerEvent: {}
+[3.406403] (-) TimerEvent: {}
+[3.506860] (-) TimerEvent: {}
+[3.511903] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.535127] (f1tenth_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/f1tenth_msgs/srv/aeb__type_support.cpp.o\x1b[0m\n'}
+[3.536279] (f1tenth_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/f1tenth_msgs/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.597533] (f1tenth_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libf1tenth_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.607193] (-) TimerEvent: {}
+[3.672232] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.673890] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.689023] (f1tenth_msgs) StdoutLine: {'line': b'[ 33%] Built target f1tenth_msgs__rosidl_typesupport_c\n'}
+[3.702384] (f1tenth_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/f1tenth_msgs/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.702778] (f1tenth_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/f1tenth_msgs/srv/aeb__type_support.cpp.o\x1b[0m\n'}
+[3.707322] (-) TimerEvent: {}
+[3.713867] (f1tenth_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/f1tenth_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.714162] (f1tenth_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/f1tenth_msgs/srv/detail/dds_fastrtps/aeb__type_support.cpp.o\x1b[0m\n'}
+[3.730751] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.749942] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.758452] (f1tenth_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/f1tenth_msgs/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.771684] (f1tenth_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/f1tenth_msgs/srv/detail/aeb__type_support.cpp.o\x1b[0m\n'}
+[3.786142] (f1tenth_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/f1tenth_msgs/srv/detail/aeb__type_support.c.o\x1b[0m\n'}
+[3.786604] (f1tenth_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/f1tenth_msgs/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[3.808748] (-) TimerEvent: {}
+[3.909209] (-) TimerEvent: {}
+[3.921826] (f1tenth_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libf1tenth_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.009365] (-) TimerEvent: {}
+[4.027149] (f1tenth_msgs) StdoutLine: {'line': b'[ 56%] Built target f1tenth_msgs__rosidl_typesupport_introspection_c\n'}
+[4.109470] (-) TimerEvent: {}
+[4.210022] (-) TimerEvent: {}
+[4.310417] (-) TimerEvent: {}
+[4.320672] (f1tenth_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libf1tenth_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.389787] (f1tenth_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libf1tenth_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.403647] (f1tenth_msgs) StdoutLine: {'line': b'[ 61%] Built target f1tenth_msgs__rosidl_typesupport_cpp\n'}
+[4.410525] (-) TimerEvent: {}
+[4.495104] (f1tenth_msgs) StdoutLine: {'line': b'[ 61%] Built target f1tenth_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.510615] (-) TimerEvent: {}
+[4.550620] (f1tenth_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libf1tenth_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.610847] (-) TimerEvent: {}
+[4.676311] (f1tenth_msgs) StdoutLine: {'line': b'[ 64%] Built target f1tenth_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.690896] (f1tenth_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.711015] (-) TimerEvent: {}
+[4.811480] (-) TimerEvent: {}
+[4.911770] (-) TimerEvent: {}
+[5.012119] (-) TimerEvent: {}
+[5.056631] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.081750] (f1tenth_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/f1tenth_msgs/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[5.081975] (f1tenth_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/f1tenth_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/f1tenth_msgs/srv/detail/aeb__type_support_c.cpp.o\x1b[0m\n'}
+[5.112218] (-) TimerEvent: {}
+[5.212550] (-) TimerEvent: {}
+[5.312882] (-) TimerEvent: {}
+[5.413288] (-) TimerEvent: {}
+[5.513653] (-) TimerEvent: {}
+[5.550476] (f1tenth_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libf1tenth_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.613780] (-) TimerEvent: {}
+[5.675985] (f1tenth_msgs) StdoutLine: {'line': b'[ 74%] Built target f1tenth_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.688992] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs\x1b[0m\n'}
+[5.705598] (f1tenth_msgs) StdoutLine: {'line': b'[ 74%] Built target f1tenth_msgs\n'}
+[5.713892] (-) TimerEvent: {}
+[5.718613] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__py\x1b[0m\n'}
+[5.736564] (f1tenth_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.814115] (-) TimerEvent: {}
+[5.914443] (-) TimerEvent: {}
+[6.014819] (-) TimerEvent: {}
+[6.115385] (-) TimerEvent: {}
+[6.216384] (-) TimerEvent: {}
+[6.316687] (-) TimerEvent: {}
+[6.417046] (-) TimerEvent: {}
+[6.448506] (f1tenth_msgs) StdoutLine: {'line': b'[ 76%] Built target f1tenth_msgs__py\n'}
+[6.463650] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__python\x1b[0m\n'}
+[6.490350] (f1tenth_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__python.dir/rosidl_generator_py/f1tenth_msgs/srv/_aeb_s.c.o\x1b[0m\n'}
+[6.491092] (f1tenth_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__python.dir/rosidl_generator_py/f1tenth_msgs/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[6.517200] (-) TimerEvent: {}
+[6.616394] (f1tenth_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/f1tenth_msgs/libf1tenth_msgs__python.so\x1b[0m\n'}
+[6.617290] (-) TimerEvent: {}
+[6.682741] (f1tenth_msgs) StdoutLine: {'line': b'[ 84%] Built target f1tenth_msgs__python\n'}
+[6.699149] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.699377] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.699531] (f1tenth_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target f1tenth_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.717433] (-) TimerEvent: {}
+[6.720014] (f1tenth_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/f1tenth_msgs/_f1tenth_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.720775] (f1tenth_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/f1tenth_msgs/_f1tenth_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.726569] (f1tenth_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/f1tenth_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/f1tenth_msgs/_f1tenth_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.817641] (-) TimerEvent: {}
+[6.839214] (f1tenth_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.844066] (f1tenth_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.848442] (f1tenth_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.905034] (f1tenth_msgs) StdoutLine: {'line': b'[100%] Built target f1tenth_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.908035] (f1tenth_msgs) StdoutLine: {'line': b'[100%] Built target f1tenth_msgs__rosidl_typesupport_c__pyext\n'}
+[6.917774] (-) TimerEvent: {}
+[6.951339] (f1tenth_msgs) StdoutLine: {'line': b'[100%] Built target f1tenth_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.971788] (f1tenth_msgs) CommandEnded: {'returncode': 0}
+[7.018013] (-) TimerEvent: {}
+[7.118887] (-) TimerEvent: {}
+[7.135305] (f1tenth_msgs) JobProgress: {'identifier': 'f1tenth_msgs', 'progress': 'install'}
+[7.135875] (f1tenth_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/f1tenth_ws/build/f1tenth_msgs'], 'cwd': '/f1tenth_ws/build/f1tenth_msgs', 'env': OrderedDict([('HOSTNAME', 'thanhthanh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/f1tenth_ws/install/f1tenth_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ENV', 'development'), ('COLCON_PREFIX_PATH', '/f1tenth_ws/install:/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('PWD', '/f1tenth_ws/build/f1tenth_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages:/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/f1tenth_ws/install/ros2_basic:/f1tenth_ws/install/f1tenth_msgs:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[7.152513] (f1tenth_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.152743] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/ament_index/resource_index/rosidl_interfaces/f1tenth_msgs\n'}
+[7.152825] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.153010] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.153127] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/add_two_ints.h\n'}
+[7.153191] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.153257] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__functions.h\n'}
+[7.153343] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__functions.h\n'}
+[7.153413] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__type_support.h\n'}
+[7.153479] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__functions.c\n'}
+[7.153599] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__struct.h\n'}
+[7.153675] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__type_support.h\n'}
+[7.153759] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__functions.c\n'}
+[7.153857] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__struct.h\n'}
+[7.153956] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/aeb.h\n'}
+[7.154052] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg\n'}
+[7.154149] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.154333] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/library_path.sh\n'}
+[7.154529] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/library_path.dsv\n'}
+[7.154848] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_generator_c.so\n'}
+[7.155434] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_generator_c.so" to ""\n'}
+[7.155575] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.155647] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.155771] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.155878] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__rosidl_typesupport_fastrtps_c.h\n'}
+[7.155979] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[7.156087] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg\n'}
+[7.156149] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.156235] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.156685] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.156958] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.157299] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.157633] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.157852] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.157943] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.158014] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/dds_fastrtps\n'}
+[7.158082] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg\n'}
+[7.158220] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.158313] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.158743] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.158898] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.159007] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.159081] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.159150] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__type_support.c\n'}
+[7.159382] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__rosidl_typesupport_introspection_c.h\n'}
+[7.159458] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__type_support.c\n'}
+[7.159566] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[7.159635] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg\n'}
+[7.159729] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.159822] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.160290] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.160386] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_c.so\n'}
+[7.160761] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.160881] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.160972] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.161039] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/add_two_ints.hpp\n'}
+[7.161125] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/aeb.hpp\n'}
+[7.161223] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.161297] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__builder.hpp\n'}
+[7.161392] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__type_support.hpp\n'}
+[7.161461] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__traits.hpp\n'}
+[7.161558] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__type_support.hpp\n'}
+[7.161625] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__builder.hpp\n'}
+[7.161750] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__struct.hpp\n'}
+[7.161842] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__traits.hpp\n'}
+[7.161932] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__struct.hpp\n'}
+[7.162028] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg\n'}
+[7.162090] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.162197] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs\n'}
+[7.162322] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv\n'}
+[7.162455] (f1tenth_msgs) StdoutLine: {'line': b'-- Up-to-date: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail\n'}
+[7.162544] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.162661] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/aeb__type_support.cpp\n'}
+[7.162745] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.162867] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/include/f1tenth_msgs/srv/detail/add_two_ints__type_support.cpp\n'}
+[7.163020] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.163485] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.163569] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_cpp.so\n'}
+[7.163865] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.163950] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/pythonpath.sh\n'}
+[7.164074] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/pythonpath.dsv\n'}
+[7.164279] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/__init__.py\n'}
+[7.200089] (f1tenth_msgs) StdoutLine: {'line': b"Compiling '/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/__init__.py'...\n"}
+[7.208227] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv\n'}
+[7.208436] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv/__init__.py\n'}
+[7.208536] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv/_aeb_s.c\n'}
+[7.208609] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv/_aeb.py\n'}
+[7.208897] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv/_add_two_ints_s.c\n'}
+[7.209064] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/srv/_add_two_ints.py\n'}
+[7.209360] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.209900] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.210147] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.210789] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.210992] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.211527] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/python3.8/site-packages/f1tenth_msgs/f1tenth_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.211617] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__python.so\n'}
+[7.211905] (f1tenth_msgs) StdoutLine: {'line': b'-- Set runtime path of "/f1tenth_ws/install/f1tenth_msgs/lib/libf1tenth_msgs__python.so" to ""\n'}
+[7.212027] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/AddTwoInts.idl\n'}
+[7.212281] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/Aeb.idl\n'}
+[7.212419] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/AddTwoInts.srv\n'}
+[7.212514] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/AddTwoInts_Request.msg\n'}
+[7.212600] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/AddTwoInts_Response.msg\n'}
+[7.212844] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/Aeb.srv\n'}
+[7.212966] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/Aeb_Request.msg\n'}
+[7.213056] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/srv/Aeb_Response.msg\n'}
+[7.213191] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/ament_index/resource_index/package_run_dependencies/f1tenth_msgs\n'}
+[7.213357] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/ament_index/resource_index/parent_prefix_path/f1tenth_msgs\n'}
+[7.213495] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/ament_prefix_path.sh\n'}
+[7.213636] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/ament_prefix_path.dsv\n'}
+[7.213838] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/path.sh\n'}
+[7.214000] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/environment/path.dsv\n'}
+[7.214105] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/local_setup.bash\n'}
+[7.214263] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/local_setup.sh\n'}
+[7.214412] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/local_setup.zsh\n'}
+[7.214595] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/local_setup.dsv\n'}
+[7.214740] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/package.dsv\n'}
+[7.214911] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/ament_index/resource_index/packages/f1tenth_msgs\n'}
+[7.215113] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_generator_cExport.cmake\n'}
+[7.215279] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.215470] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.215633] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.215811] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.215982] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.216163] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.216354] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.216496] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.216685] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.216840] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.216972] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.217100] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.217260] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.217389] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.217515] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.217644] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.217792] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.217968] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgsConfig.cmake\n'}
+[7.218060] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/cmake/f1tenth_msgsConfig-version.cmake\n'}
+[7.218218] (f1tenth_msgs) StdoutLine: {'line': b'-- Installing: /f1tenth_ws/install/f1tenth_msgs/share/f1tenth_msgs/package.xml\n'}
+[7.218987] (-) TimerEvent: {}
+[7.220909] (f1tenth_msgs) CommandEnded: {'returncode': 0}
+[7.319181] (-) TimerEvent: {}
+[7.361670] (f1tenth_msgs) JobEnded: {'identifier': 'f1tenth_msgs', 'rc': 0}
+[7.364443] (-) EventReactorShutdown: {}
