@@ -1,4 +1,0 @@
-Invoking command in '/f1tenth_ws/build/f1tenth_msgs': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /f1tenth_ws/build/f1tenth_msgs -- -j8 -l8
-Invoked command in '/f1tenth_ws/build/f1tenth_msgs' returned '0': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /f1tenth_ws/build/f1tenth_msgs -- -j8 -l8
-Invoking command in '/f1tenth_ws/build/f1tenth_msgs': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /f1tenth_ws/build/f1tenth_msgs
-Invoked command in '/f1tenth_ws/build/f1tenth_msgs' returned '0': CMAKE_PREFIX_PATH=/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /f1tenth_ws/build/f1tenth_msgs
