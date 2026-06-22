@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+"blinkled_v1\startup_stm32l476xx.o"
+"blinkled_v1\main.o"
+"blinkled_v1\stm32l4xx_it.o"
+"blinkled_v1\stm32l4xx_hal_msp.o"
+"blinkled_v1\stm32l4xx_hal.o"
+"blinkled_v1\stm32l4xx_hal_rcc.o"
+"blinkled_v1\stm32l4xx_hal_rcc_ex.o"
+"blinkled_v1\stm32l4xx_hal_flash.o"
+"blinkled_v1\stm32l4xx_hal_flash_ex.o"
+"blinkled_v1\stm32l4xx_hal_flash_ramfunc.o"
+"blinkled_v1\stm32l4xx_hal_gpio.o"
+"blinkled_v1\stm32l4xx_hal_i2c.o"
+"blinkled_v1\stm32l4xx_hal_i2c_ex.o"
+"blinkled_v1\stm32l4xx_hal_dma.o"
+"blinkled_v1\stm32l4xx_hal_dma_ex.o"
+"blinkled_v1\stm32l4xx_hal_pwr.o"
+"blinkled_v1\stm32l4xx_hal_pwr_ex.o"
+"blinkled_v1\stm32l4xx_hal_cortex.o"
+"blinkled_v1\stm32l4xx_hal_exti.o"
+"blinkled_v1\system_stm32l4xx.o"
+"blinkled_v1\led_rgb.o"
+--strict --scatter "BlinkLED_v1\BlinkLED_v1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BlinkLED_v1.map" -o BlinkLED_v1\BlinkLED_v1.axf

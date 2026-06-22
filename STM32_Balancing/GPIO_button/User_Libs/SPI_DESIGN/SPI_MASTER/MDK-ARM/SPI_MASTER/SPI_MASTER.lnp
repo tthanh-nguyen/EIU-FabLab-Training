@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"spi_master\startup_stm32f103xb.o"
+"spi_master\main.o"
+"spi_master\stm32f1xx_it.o"
+"spi_master\stm32f1xx_hal_msp.o"
+"spi_master\stm32f1xx_hal_gpio_ex.o"
+"spi_master\stm32f1xx_hal_spi.o"
+"spi_master\stm32f1xx_hal.o"
+"spi_master\stm32f1xx_hal_rcc.o"
+"spi_master\stm32f1xx_hal_rcc_ex.o"
+"spi_master\stm32f1xx_hal_gpio.o"
+"spi_master\stm32f1xx_hal_dma.o"
+"spi_master\stm32f1xx_hal_cortex.o"
+"spi_master\stm32f1xx_hal_pwr.o"
+"spi_master\stm32f1xx_hal_flash.o"
+"spi_master\stm32f1xx_hal_flash_ex.o"
+"spi_master\stm32f1xx_hal_exti.o"
+"spi_master\system_stm32f1xx.o"
+"spi_master\spi_master.o"
+--strict --scatter "SPI_MASTER\SPI_MASTER.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPI_MASTER.map" -o SPI_MASTER\SPI_MASTER.axf

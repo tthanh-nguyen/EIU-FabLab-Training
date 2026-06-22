@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"srf04_assignment2\startup_stm32f103xb.o"
+"srf04_assignment2\main.o"
+"srf04_assignment2\stm32f1xx_it.o"
+"srf04_assignment2\stm32f1xx_hal_msp.o"
+"srf04_assignment2\stm32f1xx_hal_gpio_ex.o"
+"srf04_assignment2\stm32f1xx_hal_tim.o"
+"srf04_assignment2\stm32f1xx_hal_tim_ex.o"
+"srf04_assignment2\stm32f1xx_hal.o"
+"srf04_assignment2\stm32f1xx_hal_rcc.o"
+"srf04_assignment2\stm32f1xx_hal_rcc_ex.o"
+"srf04_assignment2\stm32f1xx_hal_gpio.o"
+"srf04_assignment2\stm32f1xx_hal_dma.o"
+"srf04_assignment2\stm32f1xx_hal_cortex.o"
+"srf04_assignment2\stm32f1xx_hal_pwr.o"
+"srf04_assignment2\stm32f1xx_hal_flash.o"
+"srf04_assignment2\stm32f1xx_hal_flash_ex.o"
+"srf04_assignment2\stm32f1xx_hal_exti.o"
+"srf04_assignment2\system_stm32f1xx.o"
+"srf04_assignment2\srf04.o"
+--strict --scatter "SRF04_assignment2\SRF04_assignment2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SRF04_assignment2.map" -o SRF04_assignment2\SRF04_assignment2.axf
