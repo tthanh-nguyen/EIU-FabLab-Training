@@ -1,9 +1,0 @@
-/f1tenth_ws/build/ros2_basic/CMakeFiles/install/strip.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/install/local.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/install.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/list_install_components.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/rebuild_cache.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/edit_cache.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/test.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/ros2_basic_uninstall.dir
-/f1tenth_ws/build/ros2_basic/CMakeFiles/uninstall.dir

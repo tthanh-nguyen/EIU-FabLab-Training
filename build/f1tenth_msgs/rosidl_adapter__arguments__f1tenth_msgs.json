@@ -1,7 +1,0 @@
-{
-  "package_name": "f1tenth_msgs",
-  "non_idl_tuples": [
-    "/f1tenth_ws/src/f1tenth_msgs:srv/AddTwoInts.srv",
-    "/f1tenth_ws/src/f1tenth_msgs:srv/Aeb.srv"
-  ]
-}
